@@ -20,15 +20,15 @@ struct Animation {
         Double.random(in: 0...2)
     }
     
-    static func getAnimations() -> [Animation] {
-        var animations: [Animation] = []
+    static func getAnimation() -> Animation {
         let animationPresets = AnimationPreset.allCases
         let animationCurves = AnimationCurve.allCases
-        for i in 0..<animationPresets.count {
-            let animation = Animation(preset: animationPresets[i], curve: animationCurves.randomElement() ?? .easeIn)
-            animations.append(animation)
-        }
-        return animations
+    
+        let animation = Animation(
+            preset: animationPresets.randomElement() ?? .pop,
+            curve: animationCurves.randomElement() ?? .easeIn)
+        
+        return animation
         
     }
 }

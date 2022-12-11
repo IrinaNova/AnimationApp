@@ -60,14 +60,11 @@
 		80C2625A2944FAFD00A35EC7 /* AnimationApp */ = {
 			isa = PBXGroup;
 			children = (
-				80C2625B2944FAFD00A35EC7 /* AppDelegate.swift */,
-				80C2625D2944FAFD00A35EC7 /* SceneDelegate.swift */,
-				80C2625F2944FAFD00A35EC7 /* ViewController.swift */,
+				80EEF61E2946398400D5BCF1 /* App */,
+				80EEF61C2946392F00D5BCF1 /* ViewControllers */,
 				80EEF61B2946264700D5BCF1 /* Models */,
-				80C262612944FAFD00A35EC7 /* Main.storyboard */,
-				80C262642944FAFE00A35EC7 /* Assets.xcassets */,
-				80C262662944FAFE00A35EC7 /* LaunchScreen.storyboard */,
-				80C262692944FAFE00A35EC7 /* Info.plist */,
+				80EEF61D2946396D00D5BCF1 /* Storyboards */,
+				80EEF61F2946399500D5BCF1 /* Resources */,
 			);
 			path = AnimationApp;
 			sourceTree = "<group>";
@@ -78,6 +75,41 @@
 				80EEF61929461C4200D5BCF1 /* Animation.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		80EEF61C2946392F00D5BCF1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				80C2625F2944FAFD00A35EC7 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		80EEF61D2946396D00D5BCF1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				80C262612944FAFD00A35EC7 /* Main.storyboard */,
+				80C262662944FAFE00A35EC7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		80EEF61E2946398400D5BCF1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				80C2625B2944FAFD00A35EC7 /* AppDelegate.swift */,
+				80C2625D2944FAFD00A35EC7 /* SceneDelegate.swift */,
+				80C262692944FAFE00A35EC7 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		80EEF61F2946399500D5BCF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80C262642944FAFE00A35EC7 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,7 +341,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BXKN7XFULF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimationApp/Info.plist;
+				INFOPLIST_FILE = AnimationApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -337,7 +369,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BXKN7XFULF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimationApp/Info.plist;
+				INFOPLIST_FILE = AnimationApp/App/info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
